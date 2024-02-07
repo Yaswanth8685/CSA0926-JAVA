@@ -1,0 +1,19 @@
+import java.util.*;
+
+    class valid {
+        public static void main(String args[]){
+            Scanner sc= new Scanner(System.in);
+                    String a=sc.next();
+            System.out.println("enter the string=");
+                    String b=sc.next();
+                            System.out.println("renterbthe string=");
+                                    if (a.equals(b))
+            {
+                System.out.println("is valid");
+            }
+                                    else
+            {
+                System.out.println("is invalid");
+            }
+        }
+    }
